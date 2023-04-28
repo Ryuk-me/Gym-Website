@@ -8,7 +8,7 @@ const Join = () => {
   const [mobile, setmobile] = useState("");
 
   const addInfo = () => {
-    Axios.post("http://localhost:8009/insert", {
+    Axios.post("https://backend-tiwaryrohit.cloud.okteto.net/insert", {
       email: email,
       name: name,
       number: mobile,
